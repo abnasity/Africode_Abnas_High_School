@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    
+</body>
+
+<nav>
+    <ul style="list-style-type: none;">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/courses.html">Courses</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/form.html">Register with us</a></li>
+    </ul>
+</nav>
+
+<form action="">
+    <h1>Registration form</h1>
+    <form action="register.php" method="POST">
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="fname" placeholder="eg., abed" required> 
+    <br><br>
+    <label for="lname">Last name</label>
+    <input type="text" id="lname" name="lname" placeholder="eg., kibet">
+    <br><br>
+    <label for="email">Email</label >
+    <input type="email" id="email" name="email" placeholder="eg., abdkpng@gmail.com" required>
+    <br><br>
+    <label for="dbirth">DOB</label>
+    <input type="date" id="dbirth" name="dbirth" >
+    <br><br>
+    <label for="pnumber">Phone number</label>
+    <input type="tel" id="phone" name="phone" placeholder="+1234567890" pattern="\+[0-9]{6,15}" required>
+    <br><br>
+    <label for="Gender:">Gender:</label>
+    <label for="Gender">Male</label>
+    <input type="radio" id="male" name="Gender" value="Gender">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="Gender" value="Female">
+    <br><br>
+    <br><br>
+    <label for="file">upload image</label>
+    <input type="file" id="image" name="image" accept="image/*">
+      <small>Only image files (Max: 2MB)</small>
+    <br><br>
+    
+    <br>
+    <input type="submit" id="register">
+    <input type="reset" id="reset">
+    
+    <br><br>
+    </form>
+    
+    </html>
