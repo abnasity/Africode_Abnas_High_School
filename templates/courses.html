@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Abednego Kipngeno">
-    <meta name="keywords" content="Abnas, High school, best high school in Bomet">
-    <title>Abnas High School</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block content %}
+
     <header>
         <figure>
             <img src="/abnas.jpeg" alt="Abnas High school" width="40">
@@ -74,7 +68,7 @@
 <tr>
     <th>6</th>
     <td>Chemistry</td>
-    <td>Mr. Sang</td>
+    <td>Mr </td>
 </tr>
 <tr>
 <th rowspan="2">7</th>
@@ -136,5 +130,5 @@
     <hr>
 <p>&copy; 2022-2025 Abnas High School. ALL rights reserved</p>
 </footer>
-</body>
-</html>
+
+{% endblock %}
